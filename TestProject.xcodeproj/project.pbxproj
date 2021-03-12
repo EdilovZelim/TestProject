@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA11637425FA505D00F1FBE7 /* ServiceWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11637325FA505D00F1FBE7 /* ServiceWork.swift */; };
 		FA50A4C625F08BC8000815E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50A4C525F08BC8000815E9 /* AppDelegate.swift */; };
 		FA50A4C825F08BC8000815E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50A4C725F08BC8000815E9 /* SceneDelegate.swift */; };
 		FA50A4CA25F08BC8000815E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50A4C925F08BC8000815E9 /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		FA50A4D025F08BC8000815E9 /* TestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA50A4CE25F08BC8000815E9 /* TestProject.xcdatamodeld */; };
 		FA50A4D225F08BCF000815E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA50A4D125F08BCF000815E9 /* Assets.xcassets */; };
 		FA50A4D525F08BCF000815E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA50A4D325F08BCF000815E9 /* LaunchScreen.storyboard */; };
+		FA50A4DD25F08DD6000815E9 /* Pryaniky.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50A4DC25F08DD6000815E9 /* Pryaniky.swift */; };
+		FA50A4E725F097E5000815E9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50A4E625F097E5000815E9 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA11637325FA505D00F1FBE7 /* ServiceWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceWork.swift; sourceTree = "<group>"; };
 		FA50A4C225F08BC8000815E9 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA50A4C525F08BC8000815E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA50A4C725F08BC8000815E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		FA50A4D125F08BCF000815E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA50A4D425F08BCF000815E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA50A4D625F08BCF000815E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA50A4DC25F08DD6000815E9 /* Pryaniky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pryaniky.swift; sourceTree = "<group>"; };
+		FA50A4E625F097E5000815E9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				FA50A4C525F08BC8000815E9 /* AppDelegate.swift */,
 				FA50A4C725F08BC8000815E9 /* SceneDelegate.swift */,
 				FA50A4C925F08BC8000815E9 /* ViewController.swift */,
+				FA50A4DC25F08DD6000815E9 /* Pryaniky.swift */,
+				FA11637325FA505D00F1FBE7 /* ServiceWork.swift */,
+				FA50A4E625F097E5000815E9 /* TableViewCell.swift */,
 				FA50A4CB25F08BC8000815E9 /* Main.storyboard */,
 				FA50A4D125F08BCF000815E9 /* Assets.xcassets */,
 				FA50A4D325F08BCF000815E9 /* LaunchScreen.storyboard */,
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA11637425FA505D00F1FBE7 /* ServiceWork.swift in Sources */,
 				FA50A4CA25F08BC8000815E9 /* ViewController.swift in Sources */,
 				FA50A4C625F08BC8000815E9 /* AppDelegate.swift in Sources */,
+				FA50A4E725F097E5000815E9 /* TableViewCell.swift in Sources */,
+				FA50A4DD25F08DD6000815E9 /* Pryaniky.swift in Sources */,
 				FA50A4C825F08BC8000815E9 /* SceneDelegate.swift in Sources */,
 				FA50A4D025F08BC8000815E9 /* TestProject.xcdatamodeld in Sources */,
 			);
